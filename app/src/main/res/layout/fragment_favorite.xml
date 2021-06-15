@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/cartext1"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="EasyFix to help you fix your car!"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <ImageView
+        android:id="@+id/carImage"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/car"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewGridName"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/cartext2"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/cartext1"
+        android:text="What is Auto Repair Software?"
+        android:textSize="13dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginTop="2dp"/>
+    <TextView
+        android:id="@+id/cartext3"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/cartext2"
+        android:text="  The best free and open source auto repair software solutions.Auto repair software works as a system that helps in automating the task of managing an auto repair shop efficiently. The automotive technicians make use of this tool to manage car repair procedures along with office tasks.
+
+The auto repairing management app offers tools like the point of sale, invoicing, estimation, and vehicle history. "
+        android:textSize="13dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginTop="1dp"/>
+
+</RelativeLayout>

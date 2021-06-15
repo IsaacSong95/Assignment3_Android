@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:id="@+id/menu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_Login"
+        android:title="@string/Login_name"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/action_signup"
+        android:title="@string/signup"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/action_Settings"
+        android:title="@string/settings_name"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_baseline_share_24"
+        app:showAsAction="always">
+    </item>
+</menu>

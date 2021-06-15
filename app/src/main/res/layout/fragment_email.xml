@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/eamil11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <TextView
+        android:id="@+id/eamil12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="songlilun@live.com"
+        android:textSize="15dp"
+        android:layout_below="@+id/eamil11"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:text="RateUS"
+        android:layout_below="@+id/eamil12"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+
+
+
+</RelativeLayout>

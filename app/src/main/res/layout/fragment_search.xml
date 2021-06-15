@@ -1,0 +1,45 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".UserDetails"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Search"
+        android:textColor="@color/coloAccent"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Search car problems"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/UpdateEmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/ButtonUserUpdate"
+        android:text="Search"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

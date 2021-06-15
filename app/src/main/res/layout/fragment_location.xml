@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:text="Location"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/carLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Kapiti Island"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/carLocation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text = "Lower Hutt"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/carLocation3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carLocation2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Otaki"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/carLocation4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carLocation3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Paekakariki"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/carLocation5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carLocation4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Levin"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/carLocation6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carLocation5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Poriua"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/carLocation7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carLocation6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Wellington Central"
+        android:textSize="30dp" />
+
+</RelativeLayout>

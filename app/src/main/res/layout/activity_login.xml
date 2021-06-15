@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/login"
+        android:textColor="@color/coloAccent"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Username"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/UsernameLogin"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppinsmedium"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:text="Password"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/PasswordLogin"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/ButtonLogin"
+        android:text="Login"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progresslogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="wrap_content"
+        android:text="SignUp Here"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
